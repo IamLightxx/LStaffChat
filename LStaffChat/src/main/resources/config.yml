@@ -1,0 +1,25 @@
+###########################
+#                         #
+#       LStaffChat        #
+#                         #
+###########################
+
+staffchat:
+  ativado: true #true ou false
+  hook-vault: true #esta funcao faz com que o plugin pegue o prefixo do cargo no plugin de permissoes
+
+  permissao: 'lstaffchat.usar'
+
+  destaque: true #se esta funcao estiver ativa o plugin faz com que a mensagem da pessoa que tem a permissao abaixo seja destacada
+  permissao-destaque: 'arostaffchat.destaque'
+
+  cores: true
+  permissao-cores: 'lstaffchat.cores'
+
+  formato: '&a[StaffChat] &7%prefixo%%staff%&7: &7%msg%'
+
+  sem-permissao: '&cApenas jogadores com cargo &eAjudante &cou superior podem usar este comando!'
+  formato-errado: '&7Use o formato: &c/sc <mensagem> &7ou &c/staff <mensagem>&7!'
+
+  console: 'Apenas players podem usar este comando'
+  desativado: '&cO staffchat estdesativado neste servidor'

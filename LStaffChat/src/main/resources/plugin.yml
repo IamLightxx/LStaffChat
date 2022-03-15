@@ -1,0 +1,9 @@
+name: LStaffChat
+version: '${project.version}'
+main: com.uaulight.lstaffchat.Main
+authors: [ uauLight ]
+description: Plugin de chat staff para o seu servidor.
+website: https://skymc.com.br/
+commands:
+  staff:
+    aliases: [s,staffchat]
